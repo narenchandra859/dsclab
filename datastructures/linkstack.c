@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define max_stack 20
+#define max_stack 100
 typedef struct {
 	int key;
 }element;
-struct stack{
+/*struct stack{
 	element data;
 	struct stack* link;
-};
-typedef struct stack* stackptr;
-//typedef struct stack *stackptr;
-//typedef struct {
-//		element data;
-//		stackptr link;
-//}stack;
+};*/
+//typedef struct stack* stackptr;
+typedef struct stack *stackptr;
+typedef struct stack {
+		element data;
+		stackptr link;
+}stack;
 stackptr top[max_stack];
 void push(int i, element data) {
 	stackptr t;
