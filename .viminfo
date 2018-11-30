@@ -12,12 +12,13 @@
 
 # Command Line History (newest to oldest):
 :wq
-:q
-:!q
+:WQ
 :set nopaste
 :set paste
+:qw
+:q
+:!q
 :Q
-:WQ
 :w
 :weq
 :saveas cirq.c
@@ -57,7 +58,7 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	CHAR	0
+"1	CHAR	0
 	#include<stdio.h>
 	#include<stdlib.h>
 	int isp[]={0,4,3,3,2,2,2,0};
@@ -124,23 +125,74 @@
 	void tra
 "q	CHAR	0
 	
-"-	CHAR	0
-	i
+""-	CHAR	0
+		
 
 # File marks:
-'0  1  0  ~/datastructures/postfix.c
-'1  1  0  ~/datastructures/evalpost.c
-'2  103  0  ~/datastructures/postfix.c
-'3  1  0  ~/datastructures/posfix.c
-'4  91  25  ~/datastructures/postfix.c
-'5  92  19  ~/datastructures/postfix.c
-'6  73  6  ~/datastructures/postfix.c
-'7  89  24  ~/datastructures/postfix.c
-'8  74  12  ~/datastructures/postfix.c
-'9  85  26  ~/datastructures/postfix.c
+'0  85  0  ~/datastructures/linkqueue.c
+'1  83  0  ~/datastructures/linkstack.c
+'2  23  0  ~/datastructures/linkqueue.c
+'3  20  0  ~/datastructures/linkstack.c
+'4  15  1  ~/datastructures/linkstack.c
+'5  17  0  ~/datastructures/linkqueue.c
+'6  3  16  ~/datastructures/linkqueue.c
+'7  52  16  ~/datastructures/linkqueue.c
+'8  9  19  ~/datastructures/linkstack.c
+'9  36  12  ~/datastructures/linkqueue.c
 
 # Jumplist (newest first):
+-'  85  0  ~/datastructures/linkqueue.c
+-'  1  0  ~/datastructures/linkqueue.c
+-'  83  0  ~/datastructures/linkstack.c
+-'  1  0  ~/datastructures/linkstack.c
+-'  23  0  ~/datastructures/linkqueue.c
+-'  20  0  ~/datastructures/linkstack.c
+-'  15  1  ~/datastructures/linkstack.c
+-'  17  0  ~/datastructures/linkqueue.c
+-'  3  16  ~/datastructures/linkqueue.c
+-'  52  16  ~/datastructures/linkqueue.c
+-'  9  19  ~/datastructures/linkstack.c
+-'  36  12  ~/datastructures/linkqueue.c
+-'  12  12  ~/datastructures/linkstack.c
+-'  16  6  ~/datastructures/linkstack.c
+-'  10  1  ~/datastructures/linkstack.c
+-'  8  14  ~/datastructures/linkstack.c
+-'  11  14  ~/datastructures/linkstack.c
+-'  17  14  ~/datastructures/linkstack.c
+-'  6  32  ~/datastructures/linkstack.c
+-'  52  38  ~/datastructures/linkstack.c
+-'  49  1  ~/datastructures/linkstack.c
+-'  32  6  ~/datastructures/linkstack.c
+-'  33  0  ~/datastructures/linkstack.c
+-'  3  20  ~/datastructures/linkstack.c
+-'  1  17  ~/test2.cpp
+-'  39  0  ~/test1.cpp
+-'  1  0  ~/test1.cpp
+-'  77  11  ~/test2.cpp
+-'  53  8  ~/test2.cpp
+-'  60  16  ~/test2.cpp
+-'  79  0  ~/test2.cpp
+-'  69  8  ~/test2.cpp
+-'  64  6  ~/test2.cpp
+-'  27  59  ~/test1.cpp
+-'  23  40  ~/test1.cpp
+-'  16  16  ~/test1.cpp
+-'  36  12  ~/test1.cpp
+-'  37  0  ~/test1.cpp
+-'  28  36  ~/test1.cpp
+-'  24  0  ~/test1.cpp
+-'  37  6  ~/datastructures/postfix.c
 -'  1  0  ~/datastructures/postfix.c
+-'  33  27  ~/cpp/files1.cpp
+-'  1  0  ~/cpp/files1.cpp
+-'  34  2  ~/cpp/files1.cpp
+-'  26  41  ~/cpp/files1.cpp
+-'  21  18  ~/cpp/files1.cpp
+-'  24  6  ~/cpp/files1.cpp
+-'  28  3  ~/cpp/files1.cpp
+-'  39  0  ~/cpp/files1.cpp
+-'  1  0  ~/cpp/ooptr.cpp
+-'  79  0  ~/datastructures/evalpost.c
 -'  1  0  ~/datastructures/evalpost.c
 -'  103  0  ~/datastructures/postfix.c
 -'  1  0  ~/datastructures/posfix.c
@@ -186,62 +238,181 @@
 -'  31  0  ~/datastructures/cirq.c
 -'  90  0  ~/datastructures/cirq.c
 -'  46  0  ~/datastructures/cirq.c
--'  64  12  ~/datastructures/cirq.c
--'  30  1  ~/datastructures/cirq.c
--'  7  15  ~/datastructures/cirq.c
--'  49  0  ~/datastructures/cirq.c
--'  69  5  ~/datastructures/cirq.c
--'  45  15  ~/datastructures/cirq.c
--'  66  1  ~/datastructures/cirq.c
--'  21  8  ~/datastructures/cirq.c
--'  84  10  ~/datastructures/cirq.c
--'  42  49  ~/datastructures/cirq.c
--'  2  90  ~/datastructures/cirq.c
--'  6  15  ~/datastructures/cirq.c
--'  10  23  ~/datastructures/endindicesmatching.c
--'  1  0  ~/datastructures/endindicesmatching.c
--'  9  20  ~/datastructures/endindicesmatching.c
--'  25  0  ~/datastructures/endindicesmatching.c
--'  1  0  ~/datastructures/kmpmatching.c
--'  3  0  ~/datastructures/endindicesmatching.c
--'  3  0  ~/datastructures/dynarr1.c
--'  1  0  ~/datastructures/dynarr1.c
--'  1  0  ~/datastructures/dynarr2.c
--'  89  0  ~/datastructures/cirq.c
--'  7  12  ~/datastructures/dyncircq.c
--'  1  0  ~/datastructures/dyncircq.c
--'  47  0  ~/datastructures/kmpmatching.c
--'  27  34  ~/datastructures/endindicesmatching.c
--'  44  58  ~/datastructures/kmpmatching.c
--'  30  5  ~/datastructures/kmpmatching.c
--'  42  17  ~/datastructures/kmpmatching.c
--'  1  0  ~/kmp.c
--'  40  18  ~/datastructures/kmpmatching.c
--'  29  0  ~/datastructures/endindicesmatching.c
--'  19  1  ~/datastructures/endindicesmatching.c
--'  18  31  ~/datastructures/endindicesmatching.c
--'  2  0  ~/datastructures/kmpmatching.c
--'  16  1  ~/datastructures/kmpmatching.c
--'  22  13  ~/datastructures/kmpmatching.c
--'  18  26  ~/datastructures/kmpmatching.c
--'  13  11  ~/datastructures/kmpmatching.c
--'  9  4  ~/datastructures/kmpmatching.c
--'  46  0  ~/datastructures/kmpmatching.c
--'  92  0  ~/cpp/templates.cpp
--'  1  0  ~/cpp/templates.cpp
--'  107  0  ~/cpp/templates.cpp
--'  130  2  ~/cpp/templates.cpp
--'  32  22  ~/cpp/templates.cpp
--'  33  10  ~/cpp/templates.cpp
--'  127  20  ~/cpp/templates.cpp
--'  48  68  ~/cpp/templates.cpp
--'  136  0  ~/cpp/templates.cpp
--'  65  34  ~/cpp/templates.cpp
 
 # History of marks within files (newest to oldest):
 
+> ~/datastructures/linkqueue.c
+	"	85	0
+	^	17	1
+	.	17	0
+	+	9	1
+	+	7	11
+	+	36	13
+	+	47	17
+	+	46	30
+	+	48	30
+	+	52	12
+	+	52	11
+	+	84	1
+	+	52	0
+	+	57	44
+	+	61	56
+	+	67	78
+	+	70	56
+	+	74	56
+	+	69	37
+	+	63	35
+	+	22	3
+	+	3	16
+	+	17	0
+
+> ~/datastructures/linkstack.c
+	"	83	0
+	^	15	2
+	.	15	1
+	+	6	9
+	+	4	14
+	+	39	9
+	+	36	2
+	+	41	1
+	+	25	19
+	+	28	0
+	+	46	17
+	+	45	29
+	+	58	1
+	+	55	9
+	+	64	0
+	+	60	57
+	+	61	10
+	+	53	10
+	+	54	10
+	+	63	4
+	+	59	10
+	+	78	9
+	+	76	16
+	+	83	0
+	+	3	21
+	+	20	32
+	+	52	17
+	+	3	19
+	+	52	25
+	+	53	0
+	+	7	0
+	+	10	7
+	+	17	0
+	+	6	9
+	+	7	0
+	+	8	20
+	+	11	30
+	+	11	14
+	+	8	21
+	+	11	14
+	+	8	15
+	+	7	0
+	+	9	7
+	+	10	1
+	+	7	11
+	+	10	1
+	+	20	34
+	+	7	1
+	+	16	6
+	+	12	12
+	+	7	0
+	+	11	31
+	+	12	1
+	+	13	1
+	+	16	1
+	+	15	0
+	+	14	1
+	+	15	1
+
+> ~/test2.cpp
+	"	1	17
+	^	77	12
+	.	77	11
+	+	7	2
+	+	6	2
+	+	27	5
+	+	26	73
+	+	44	12
+	+	35	53
+	+	78	0
+	+	69	34
+	+	79	0
+	+	72	6
+	+	64	6
+	+	62	9
+	+	68	1
+	+	67	9
+	+	70	9
+	+	76	1
+	+	53	9
+	+	55	1
+	+	54	1
+	+	53	9
+	+	54	36
+	+	55	14
+	+	58	9
+	+	60	2
+	+	59	36
+	+	60	15
+	+	61	0
+	+	60	1
+	+	58	9
+	+	56	0
+	+	55	1
+	+	53	9
+	+	77	11
+
+> ~/test1.cpp
+	"	39	0
+	^	27	60
+	.	27	59
+	+	6	41
+	+	5	40
+	+	8	17
+	+	20	16
+	+	19	1
+	+	25	1
+	+	13	0
+	+	11	56
+	+	17	56
+	+	23	56
+	+	14	8
+	+	15	1
+	+	21	0
+	+	27	63
+	+	28	36
+	+	27	49
+	+	28	0
+	+	5	75
+	+	39	0
+	+	31	10
+	+	32	12
+	+	33	10
+	+	34	12
+	+	35	10
+	+	36	12
+	+	38	9
+	+	5	43
+	+	10	16
+	+	11	17
+	+	16	16
+	+	17	17
+	+	22	16
+	+	23	17
+	+	17	17
+	+	16	16
+	+	10	39
+	+	11	40
+	+	16	39
+	+	17	40
+	+	22	39
+	+	23	40
+	+	27	59
+
 > ~/datastructures/postfix.c
-	"	1	0
+	"	37	6
 	^	91	26
 	.	91	26
 	+	1	16
@@ -292,8 +463,50 @@
 	+	93	0
 	+	91	26
 
-> ~/datastructures/evalpost.c
+> ~/cpp/files1.cpp
+	"	33	27
+	^	33	28
+	.	33	27
+	+	14	1
+	+	12	13
+	+	15	13
+	+	18	2
+	+	17	10
+	+	21	12
+	+	19	13
+	+	40	0
+	+	31	10
+	+	35	9
+	+	35	9
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	27	3
+	+	28	3
+	+	19	10
+	+	24	7
+	+	19	19
+	+	21	18
+	+	9	0
+	+	26	0
+	+	31	11
+	+	35	0
+	+	33	2
+	+	34	1
+	+	33	1
+	+	19	20
+	+	21	22
+	+	33	27
+
+> ~/cpp/ooptr.cpp
 	"	1	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> ~/datastructures/evalpost.c
+	"	79	0
 	^	1	17
 	.	82	0
 	+	42	8
@@ -884,12 +1097,6 @@
 	+	20	0
 	+	8	12
 	+	17	6
-
-> ~/cpp/ooptr.cpp
-	"	1	0
-	^	16	1
-	.	16	0
-	+	16	0
 
 > ~/datastructures/strun.c
 	"	1	0
@@ -3089,159 +3296,3 @@
 	^	1	0
 	.	1	0
 	+	1	0
-
-> ~/cpp/11.c
-	"	1	0
-	^	1	17
-	.	1	16
-	+	1	17
-	+	6	14
-	+	2	16
-	+	7	21
-	+	8	18
-	+	9	36
-	+	11	19
-	+	13	16
-	+	17	14
-	+	19	19
-	+	21	15
-	+	23	1
-	+	18	46
-	+	10	10
-	+	26	27
-	+	29	34
-	+	31	19
-	+	33	15
-	+	37	0
-	+	36	8
-	+	5	0
-	+	2	15
-	+	1	16
-
-> ~/cpp/stl1.cpp
-	"	28	13
-	^	28	14
-	.	28	13
-	+	82	0
-	+	57	19
-	+	58	1
-	+	10	6
-	+	62	20
-	+	64	14
-	+	81	0
-	+	26	10
-	+	59	12
-	+	46	11
-	+	40	0
-	+	57	0
-	+	50	0
-	+	57	1
-	+	61	1
-	+	66	2
-	+	59	4
-	+	15	18
-	+	16	18
-	+	17	5
-	+	16	8
-	+	17	19
-	+	18	17
-	+	20	0
-	+	15	0
-	+	7	16
-	+	8	16
-	+	10	8
-	+	11	19
-	+	12	16
-	+	11	17
-	+	12	20
-	+	13	19
-	+	14	18
-	+	57	0
-	+	66	1
-	+	61	0
-	+	62	13
-	+	61	6
-	+	60	43
-	+	13	17
-	+	14	17
-	+	9	15
-	+	10	8
-	+	11	0
-	+	67	26
-	+	68	21
-	+	71	18
-	+	68	17
-	+	69	17
-	+	70	18
-	+	71	20
-	+	79	11
-	+	73	6
-	+	74	13
-	+	27	26
-	+	28	18
-	+	38	8
-	+	28	0
-	+	39	0
-	+	38	0
-	+	28	9
-	+	29	0
-	+	28	13
-
-> ~/cpp/stl.cpp
-	"	1	0
-	^	1	0
-	.	36	1
-	+	1	18
-	+	3	20
-	+	2	12
-	+	6	15
-	+	8	18
-	+	10	18
-	+	12	41
-	+	13	35
-	+	14	20
-	+	16	14
-	+	44	15
-	+	45	20
-	+	47	14
-	+	50	0
-	+	8	13
-	+	19	10
-	+	33	19
-	+	37	21
-	+	39	14
-	+	42	1
-	+	26	12
-	+	33	0
-	+	7	6
-	+	34	15
-	+	35	23
-	+	33	1
-	+	37	1
-	+	41	2
-	+	20	0
-	+	27	0
-	+	36	1
-
-> ~/cpp/stl_cmplx.cpp
-	"	26	0
-	^	35	37
-	.	35	36
-	+	1	18
-	+	2	14
-	+	15	18
-	+	24	31
-	+	29	16
-	+	31	17
-	+	33	27
-	+	35	36
-	+	36	20
-	+	39	11
-	+	42	0
-	+	35	36
-
-> ~/apc/sree.c
-	"	262	11
-	^	1	0
-	.	262	0
-	+	262	0

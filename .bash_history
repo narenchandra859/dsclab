@@ -1,73 +1,5 @@
 vi as1a.c
 cc as1a.c
-vi as1a.c
-cc as1a.c
-./a.out
-vi as1a.c
-cc as1a.c
-./a.out
-exit
-cd 1ms14cs069
-ls
-cd 1ms14cs069
-vi copyconstr.cpp
-g++ copyconstr.cpp
-vi copyconstr.cpp
-g++ copyconstr.cpp
-vi copyconstr.cpp
-g++ copyconstr.cpp
-vi copyconstr.cpp
-g++ copyconstr.cpp
-vi copyconstr.cpp
-g++ copyconstr.cpp
-vi copyconstr.cpp
-g++ copyconstr.cpp
-vi copyconstr.cpp
-g++ copyconstr.cpp
-./a.out
-vi copyconstr.cpp
-cd 1ms14cs069
-ls
-vi structure.c
-ls
-cd 1ms14cs069
-ls
-vi dynomemo
-vi dynomemo.c
-as1a.c
-vi as1a.c
-cc as1a.c
-vi as1a.c
-cc as1a.c
-vi as1a.c
-cc as1a.c
-vi as1a.c
-cc as1a.c
-vi as1a.c
-cc as1a.c
-vi as1a.c
-cc as1a.c
-vi as1a.c
-cc as1a.c
-./a.out
-vi as1a.c
-
-./a.out
-wq
-vi as1a.c
-cc as1a.c
-./a.out
-vi as1a.c
-cc as1a.c
-./a.out
-vi as1a.c
-cc as1a.c
-./a.out
-vi as1a.c
-cc as1a.c
-./a.out
-vi as1a.c
-cc as1a.c
 ./a.out
 vi as1a.c
 cc as1a.c
@@ -1998,3 +1930,71 @@ ls
 vi posfix.c
 vi postfix.c
 logout
+l
+cd datastructures
+vi
+ls
+cc postfix.c
+./a.out
+cc evalpost.c
+./a.out
+vi evalpost.c
+vi postfix.c
+cd ..
+ls
+git init
+git add .
+git commit
+git config --global user.email "narenchandra859@gmail.com"
+git config --global user.email "r@gmail.com"
+git config --global user.name "r@gmail.com"
+git commit 
+git commit -m "1"
+git remote add origin https://github.com/narenchandra859/dsclab.git
+git push -u origin master
+git
+l
+cd datastructures
+l
+vi evalpost.c
+exit
+l
+cd datastructures
+l
+vi postfix.c
+sudo apt install vim
+exit
+l
+vi test1.cpp
+g++ test1.cpp
+vi test1.cpp
+g++ test1.cpp
+vi test1.cpp
+g++ test1.cpp
+./a.out
+vi test1.cpp
+g++ test1.cpp
+./a.out
+vi test1.cpp
+g++ test1.cpp
+vi test2.cpp
+g++ test2.cpp
+vi test2.cpp
+g++ test2.cpp
+./a.out
+vi test2.cpp
+g++ test2.cpp
+./a.out
+vi test2.cpp
+g++ test2.cpp
+vi test2.cpp
+g++ test2.cpp
+./a.out
+vi test2.cpp
+g++ test2.cpp
+g++ test1.cpp
+./a.out
+g++ test2.cpp
+./a.out
+vi test1.cpp
+vi test2.cpp
